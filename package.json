@@ -1,29 +1,31 @@
 {
-  "name": "logs-package",
-  "version": "1.0.1",
-  "description": "",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dunghenry/npm_package.git"
-  },
-  "keywords": [
-    "console log colors",
-    "colorify logs"
-  ],
-  "author": "DungHenry",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dunghenry/npm_package/issues"
-  },
-  "homepage": "https://github.com/dunghenry/npm_package#readme",
-  "devDependencies": {
-    "typescript": "^4.7.4"
-  },
-  "files": ["lib/**/*"]
+    "name": "logs-package",
+    "version": "1.0.2",
+    "description": "Build log package",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dunghenry/npm_package.git"
+    },
+    "keywords": [
+        "console log colors",
+        "colorify logs"
+    ],
+    "author": "DungHenry",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dunghenry/npm_package/issues"
+    },
+    "homepage": "https://github.com/dunghenry/npm_package#readme",
+    "devDependencies": {
+        "typescript": "^4.9.5"
+    },
+    "files": [
+        "lib/**/*"
+    ]
 }
